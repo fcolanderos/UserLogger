@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "UserLogger/1.0.0": {
+        "dependencies": {
+          "Grasshopper": "7.22.22255.5001",
+          "RhinoCommon": "7.22.22255.5001"
+        },
+        "runtime": {
+          "UserLogger.dll": {}
+        }
+      },
+      "Grasshopper/7.22.22255.5001": {
+        "runtime": {
+          "lib/net48/GH_IO.dll": {
+            "assemblyVersion": "7.22.22255.5001",
+            "fileVersion": "7.22.22255.5001"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "assemblyVersion": "7.22.22255.5001",
+            "fileVersion": "7.22.22255.5001"
+          }
+        }
+      },
+      "RhinoCommon/7.22.22255.5001": {
+        "runtime": {
+          "lib/net48/Eto.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.8291.27822"
+          },
+          "lib/net48/Rhino.UI.dll": {
+            "assemblyVersion": "7.22.22255.5001",
+            "fileVersion": "7.22.22255.5001"
+          },
+          "lib/net48/RhinoCommon.dll": {
+            "assemblyVersion": "7.22.22255.5001",
+            "fileVersion": "7.22.22255.5001"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserLogger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Grasshopper/7.22.22255.5001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fO15Z1Tyyj7t39nqrL9sQhvzug+RvpLUxNA6kQ2X228PULHFmiU4AKIXXfS0cSLn0xeUdDjzf6kRyktGX+xG6w==",
+      "path": "grasshopper/7.22.22255.5001",
+      "hashPath": "grasshopper.7.22.22255.5001.nupkg.sha512"
+    },
+    "RhinoCommon/7.22.22255.5001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2+PpP5pCikYeptOJJg6RAs2IxBzjycNsQ2kFE+jAg1UPkB8Q7Um3IwiFsws/FcpUHdTt4LmZlyEYpRIMv/ZTYA==",
+      "path": "rhinocommon/7.22.22255.5001",
+      "hashPath": "rhinocommon.7.22.22255.5001.nupkg.sha512"
+    }
+  }
+}

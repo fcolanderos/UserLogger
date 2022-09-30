@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "hTMAbkUBwI+Jq+yAuT7GQxd5BE8aaD6YOZjQ5tJ1JzuTV99yAeFVHgDReGKVK6c/Ha96obVXr+igGNMkkS0UDA==",
+  "success": true,
+  "projectFilePath": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj",
+  "expectedPackageFiles": [
+    "/Users/flanderos/.nuget/packages/grasshopper/7.22.22255.5001/grasshopper.7.22.22255.5001.nupkg.sha512",
+    "/Users/flanderos/.nuget/packages/rhinocommon/7.22.22255.5001/rhinocommon.7.22.22255.5001.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Grasshopper 7.22.22255.5001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Grasshopper",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RhinoCommon 7.22.22255.5001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RhinoCommon",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

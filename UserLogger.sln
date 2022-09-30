@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLogger", "UserLogger\UserLogger.csproj", "{F35B635C-73B1-4D3B-BBF5-FA412BDD5CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTest", "LogTest\LogTest.csproj", "{D23CCD02-931B-453E-9579-CFCAE0DAA867}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F35B635C-73B1-4D3B-BBF5-FA412BDD5CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35B635C-73B1-4D3B-BBF5-FA412BDD5CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35B635C-73B1-4D3B-BBF5-FA412BDD5CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35B635C-73B1-4D3B-BBF5-FA412BDD5CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23CCD02-931B-453E-9579-CFCAE0DAA867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23CCD02-931B-453E-9579-CFCAE0DAA867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23CCD02-931B-453E-9579-CFCAE0DAA867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23CCD02-931B-453E-9579-CFCAE0DAA867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

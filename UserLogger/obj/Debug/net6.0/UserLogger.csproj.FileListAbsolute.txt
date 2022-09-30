@@ -1,0 +1,12 @@
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/bin/Debug/net6.0/UserLogger.deps.json
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/bin/Debug/net6.0/UserLogger.dll
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/bin/Debug/net6.0/ref/UserLogger.dll
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/bin/Debug/net6.0/UserLogger.pdb
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/UserLogger.csproj.AssemblyReference.cache
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/UserLogger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/UserLogger.AssemblyInfoInputs.cache
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/UserLogger.AssemblyInfo.cs
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/UserLogger.csproj.CoreCompileInputs.cache
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/UserLogger.dll
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/ref/UserLogger.dll
+/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/Debug/net6.0/UserLogger.pdb

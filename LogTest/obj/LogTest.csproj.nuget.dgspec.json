@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/flanderos/Documents/REPOS/UserLogger/LogTest/LogTest.csproj": {}
+  },
+  "projects": {
+    "/Users/flanderos/Documents/REPOS/UserLogger/LogTest/LogTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/flanderos/Documents/REPOS/UserLogger/LogTest/LogTest.csproj",
+        "projectName": "LogTest",
+        "projectPath": "/Users/flanderos/Documents/REPOS/UserLogger/LogTest/LogTest.csproj",
+        "packagesPath": "/Users/flanderos/.nuget/packages/",
+        "outputPath": "/Users/flanderos/Documents/REPOS/UserLogger/LogTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/flanderos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj": {
+                "projectPath": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj",
+        "projectName": "UserLogger",
+        "projectPath": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj",
+        "packagesPath": "/Users/flanderos/.nuget/packages/",
+        "outputPath": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/flanderos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Grasshopper": {
+              "target": "Package",
+              "version": "[7.22.22255.5001, )"
+            },
+            "RhinoCommon": {
+              "target": "Package",
+              "version": "[7.22.22255.5001, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

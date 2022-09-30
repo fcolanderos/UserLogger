@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Grasshopper/7.22.22255.5001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/GH_IO.dll": {},
+          "lib/net48/Grasshopper.dll": {}
+        },
+        "runtime": {
+          "lib/net48/GH_IO.dll": {},
+          "lib/net48/Grasshopper.dll": {}
+        },
+        "build": {
+          "build/net48/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/7.22.22255.5001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Eto.dll": {},
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Eto.dll": {},
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {}
+        },
+        "build": {
+          "build/net48/RhinoCommon.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grasshopper/7.22.22255.5001": {
+      "sha512": "fO15Z1Tyyj7t39nqrL9sQhvzug+RvpLUxNA6kQ2X228PULHFmiU4AKIXXfS0cSLn0xeUdDjzf6kRyktGX+xG6w==",
+      "type": "package",
+      "path": "grasshopper/7.22.22255.5001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/Grasshopper.targets",
+        "grasshopper.7.22.22255.5001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net48/GH_IO.XML",
+        "lib/net48/GH_IO.dll",
+        "lib/net48/Grasshopper.dll",
+        "lib/net48/Grasshopper.xml"
+      ]
+    },
+    "RhinoCommon/7.22.22255.5001": {
+      "sha512": "2+PpP5pCikYeptOJJg6RAs2IxBzjycNsQ2kFE+jAg1UPkB8Q7Um3IwiFsws/FcpUHdTt4LmZlyEYpRIMv/ZTYA==",
+      "type": "package",
+      "path": "rhinocommon/7.22.22255.5001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/net48/RhinoCommon.targets",
+        "lib/net48/Eto.dll",
+        "lib/net48/Eto.xml",
+        "lib/net48/Rhino.UI.dll",
+        "lib/net48/RhinoCommon.XML",
+        "lib/net48/RhinoCommon.dll",
+        "rhinocommon.7.22.22255.5001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Grasshopper >= 7.22.22255.5001",
+      "RhinoCommon >= 7.22.22255.5001"
+    ]
+  },
+  "packageFolders": {
+    "/Users/flanderos/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj",
+      "projectName": "UserLogger",
+      "projectPath": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/UserLogger.csproj",
+      "packagesPath": "/Users/flanderos/.nuget/packages/",
+      "outputPath": "/Users/flanderos/Documents/REPOS/UserLogger/UserLogger/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/flanderos/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Grasshopper": {
+            "target": "Package",
+            "version": "[7.22.22255.5001, )"
+          },
+          "RhinoCommon": {
+            "target": "Package",
+            "version": "[7.22.22255.5001, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Grasshopper 7.22.22255.5001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Grasshopper",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RhinoCommon 7.22.22255.5001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RhinoCommon",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
